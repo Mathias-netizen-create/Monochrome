@@ -12,6 +12,28 @@ nav{
 a{
     text-decoration: none;
 }
-div{
-    
-}
+.hero{
+    background-image:url("asset/bg-image-hero.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+    }
+
+    .container
+    {
+        max-width: 800px;
+        margin:auto;
+    }
+    .article{
+        display:flex;
+        gap: 40px
+    }
+    .hero2{
+        background-image:url(asset/bg-image-2.png);
+         height: 70vh;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+    }
